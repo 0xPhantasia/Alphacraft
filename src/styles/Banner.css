@@ -1,0 +1,25 @@
+
+.alp-categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.ttf);
+}
+
+h1, h2 {
+    font-family: Montserrat;
+    font-size: 15px;
+    color: gray;
+}
+
+.alp-logo {
+    width: 65px;
+    height: 45px;
+}
+
+
