@@ -6,8 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <meta charSet='UTF-8'/>
       </header>
-      <div><Banner /></div>
+      <body>
+        <div><Banner /></div>        
+      </body>
     </div>
   );
 }

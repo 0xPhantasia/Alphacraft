@@ -9,16 +9,23 @@ const CategoriesList = [
 
 console.log(logo);
 
+function handleClick(e){
+    console.log(e)
+}
+
 function Banner(){
     return (
         <div className='alp-banner'>
             <ul className="alp-categories">
-                <img className='alp-logo' src={logo} alt='Logo' />
-                {CategoriesList.map((Category) => (
-                    <li key={Category} className="alp-category"> {/*Key de la honte*/}
-                        <h2>{Category}</h2>  
-                    </li>
-                ))}
+                <img className='alp-logo' src={logo} alt='Logo' onClick={() => handleClick('Home')}/>
+                <div className='toast'>
+                    {CategoriesList.map((Category) => (
+                        <li key={Category}> {/*Key de la honte*/}
+                            <h2 className='alp-category' onClick={() => handleClick(Category)}>{Category}</h2>  
+                        </li>
+                    ))}
+                </div>
+                <button className='font alp-loginButton' onClick={() => handleClick('Login')}>Se connecter</button>
             </ul>
         </div>
         

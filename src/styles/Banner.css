@@ -1,9 +1,18 @@
 
 .alp-categories {
     display: flex;
-    justify-content: center;
     gap: 30px;
+    justify-content: center;
     list-style-type: none;
+    padding-top: 15px;
+}
+
+.alp-category {
+    color: #abb8c3;
+}
+
+.alp-category:hover {
+    color: white;
 }
 
 @font-face {
@@ -11,15 +20,42 @@
     src: url(Montserrat-Regular.ttf);
 }
 
+.font {
+    font-family: Montserrat;
+    letter-spacing: 0.05em;
+}
+
 h1, h2 {
     font-family: Montserrat;
     font-size: 15px;
-    color: gray;
+    letter-spacing: 0.05em;
 }
 
 .alp-logo {
+    display: block;
     width: 65px;
     height: 45px;
+    margin-left: auto; /* Alignement logo par rapport a la bordure gauche */
 }
 
+.toast {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
+.font.alp-loginButton {
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    color: #22b0da;
+    border-color:#22b0da;
+    text-align: center;
+    border-radius: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 45px;
+    margin-right: auto;
+    margin-left: 60%; /* Alignement boutton par rapport bordure de droite*/
+}
