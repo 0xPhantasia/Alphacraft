@@ -9,5 +9,3 @@ function Login(){
 }
 
 export default Login
-
-blabla
