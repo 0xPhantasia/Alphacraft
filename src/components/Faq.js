@@ -1,6 +1,6 @@
 import Banner from './Banner.js';
 
-function Patreon(){
+function Faq(){
     return(
         <div>
             <Banner />
@@ -8,4 +8,4 @@ function Patreon(){
     )
 }
 
-export default Patreon
+export default Faq
