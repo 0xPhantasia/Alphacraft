@@ -21,11 +21,6 @@ const CategoriesList = [
     }
 ];
 
-console.log(logo);
-
-function handleClick(e){
-}
-
 function Banner(){
     return (
         <div className='alp-banner'>
