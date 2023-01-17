@@ -1,5 +1,3 @@
-import Banner from './Banner.js';
-
 function NotFound(){
     return(
         <div>

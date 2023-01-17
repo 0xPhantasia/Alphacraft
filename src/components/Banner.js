@@ -10,14 +10,24 @@ const CategoriesList = [
         id: '1'
     },
     {
-        name: 'Creer un serveur',
+        name: 'Créer un serveur',
         path: '/Server-creation',
         id: '2'
     },
     {
-        name: 'Gerer mon serveur',
+        name: 'Gérer mon serveur',
         path: '/Server-management',
         id: '3'
+    },
+    {
+        name: 'FAQ',
+        path: '/FAQ',
+        id: '4'
+    },
+    {
+        name: 'Achète-moi un café',
+        path: '/Coffee',
+        id: '5'
     }
 ];
 
