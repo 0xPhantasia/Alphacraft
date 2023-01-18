@@ -17,3 +17,18 @@ a {
 * {
     font-family: Montserrat;
 }
+
+h1 {
+    font-size: 50px;
+    font-family: Montserrat-ExtraBold;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 25px;
+    color: #abb8c3;
+}
+
+.white {
+    color: white;
+}

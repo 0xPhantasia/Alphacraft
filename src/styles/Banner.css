@@ -10,6 +10,8 @@
 
 .alp-category {
     color: #abb8c3;
+    font-size: 15px;
+    letter-spacing: 0.05em;
 }
 
 .alp-category:hover {
@@ -17,11 +19,6 @@
 }
 
 .font {
-    letter-spacing: 0.05em;
-}
-
-h1, h2 {
-    font-size: 15px;
     letter-spacing: 0.05em;
 }
 

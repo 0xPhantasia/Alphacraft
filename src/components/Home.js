@@ -10,7 +10,7 @@ function Home(){
             </div>
             <div className='center'>
                 <img id='main-logo' src={main_logo} alt='Main Logo'></img>
-                <span id='gradient-text'>Bienvenue sur Alphacraft.</span>
+                <h1 id='gradient-text'>Bienvenue sur Alphacraft.</h1>
                 <h3>Le service d'hébergement de serveur Minecraft simple et gratuit.</h3>
             </div>
         </div>
