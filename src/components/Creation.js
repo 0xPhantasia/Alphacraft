@@ -1,10 +1,17 @@
 import Banner from './Banner.js';
+import '../styles/Creation.css'
 
 function Creation(){
     return(
         <div>
-            <Banner />
+            <div>
+                <Banner />
+            </div>
+            <div>
+                
+            </div>
         </div>
+
     )
 }
 

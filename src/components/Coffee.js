@@ -1,6 +1,6 @@
 import Banner from './Banner.js';
 
-function Patreon(){
+function Coffee(){
     return(
         <div>
             <div>
@@ -10,4 +10,4 @@ function Patreon(){
     )
 }
 
-export default Patreon
+export default Coffee
