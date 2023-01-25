@@ -1,0 +1,26 @@
+.BoxStack {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Box {
+    width: 25%;
+    height: 500px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.Box#grad1 {
+    background: rgb(82,175,214);
+    background: linear-gradient(180deg, rgba(82,175,214,1) 0%, rgba(151,235,212,1) 100%);
+}
+
+.Box#grad2 {
+    background: rgb(113,86,246);
+    background: linear-gradient(180deg, rgba(113,86,246,1) 0%, rgba(79,156,218,1) 100%);
+}
+
+.Box#grad3 {
+    background: rgb(159,108,200);
+    background: linear-gradient(180deg, rgb(141, 76, 194) 0%, rgb(230, 108, 219) 100%);
+}
