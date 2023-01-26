@@ -5,27 +5,27 @@ import { Link } from "react-router-dom"
 
 const smallConfig = {
     url:logo,
-    type:"Petite",
-    description:"Configuration Minimale, suffisante pour une experience Vanilla a 4 Joueurs"
+    type:"6 Joueurs",
+    description:"MINIMALE"
 }
 
 const medConfig = {
     logoUrl:'../styles/Alpha_logo.png',
-    type:"Moyenne",
-    description:"Configuration Standard, convenable pour un monde Vanilla jusqu'a 10 Joueurs"
+    type:"10 Joueurs",
+    description:"STANDARD"
 }
 
 const largeConfig = {
     logoUrl:'../styles/Alpha_logo.png',
-    type:"Large",
-    description:"Configuration Minimale, optimale pour un serveur Vanilla de 14 Joueurs"
+    type:"14 Joueurs",
+    description:"MAXIMALE"
 }
 
 function Logo (props){
     return (
         <div>
             <img 
-                className='logo'
+                className='Logo'
                 src={props.Url}
                 alt=''
             />
@@ -36,15 +36,21 @@ function Logo (props){
 function Type (props){
     return (
         <div>
-            <h2>{props.type}</h2>
+            <div className='Type'>
+                <p>Pour</p>
+            </div>
+            <div className='Type white'>
+                <span>{props.type}</span>
+            </div>
         </div>
+
     )
 }
 
 function Description (props){
     return (
-        <div>
-            <p>{props.description}</p>
+        <div className='Description'>
+            <button>{props.description}</button>
         </div>
     )
 }
@@ -55,9 +61,6 @@ function Option (props){
             <Type type={props.type}/>
             <Logo logo={props.url}/>
             <Description description={props.description}/>
-            <button className=''>
-                <Link to='/CreationOptions'>Creer un serveur</Link>
-            </button>
         </div>
     )
 
@@ -76,6 +79,12 @@ function Creation(){
                         type={smallConfig.type}
                         description={smallConfig.description}
                     />
+                    <div>
+                        <button className='ButtonStack' id='button1'>
+                            <Link to='/CreationOptions'>Creer un serveur</Link>
+                        </button>
+                    </div>
+                    
                 </div>
                 <div className='Box' id='grad2'>
                     <Option
@@ -83,6 +92,11 @@ function Creation(){
                         type={medConfig.type}
                         description={medConfig.description}
                     />
+                    <div>
+                        <button className='ButtonStack' id='button2'>
+                            <Link to='/CreationOptions'>Creer un serveur</Link>
+                        </button>
+                    </div>
                 </div>
                 <div className='Box' id='grad3'>
                     <Option
@@ -90,6 +104,14 @@ function Creation(){
                         type={largeConfig.type}
                         description={largeConfig.description}
                     />
+                    <div>
+
+                    </div>
+                    <div>
+                        <button className='ButtonStack' id='button3'>
+                            <Link to='/CreationOptions'>Creer un serveur</Link>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

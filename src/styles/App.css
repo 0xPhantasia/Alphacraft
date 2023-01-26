@@ -14,6 +14,11 @@ a {
     src: url(Montserrat-Regular.ttf);
 }
 
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(Montserrat-ExtraBold.ttf);
+}
+
 * {
     font-family: Montserrat;
 }
