@@ -10,13 +10,13 @@ const smallConfig = {
 }
 
 const medConfig = {
-    logoUrl:'../styles/Alpha_logo.png',
+    url:'../styles/Alpha_logo.png',
     type:"10 Joueurs",
     description:"STANDARD"
 }
 
 const largeConfig = {
-    logoUrl:'../styles/Alpha_logo.png',
+    url:'../styles/Alpha_logo.png',
     type:"14 Joueurs",
     description:"MAXIMALE"
 }
@@ -26,7 +26,7 @@ function Logo (props){
         <div>
             <img 
                 className='Logo'
-                src={props.Url}
+                src={props.url}
                 alt=''
             />
         </div>
