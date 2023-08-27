@@ -1,15 +1,15 @@
 import Banner from './Banner.js';
 import '../styles/Contact.css'
-
+import githubPng from '../styles/Github_Logo.png'
 
 const github = {
     url:"https://github.com/0xPhantasia",
-    logo:'../styles/Github_Logo.png'
+    logo:githubPng
 }
 
 const linkedin = {
     url:"https://www.linkedin.com/in/evan-mestre/",
-    logo:''
+    logo:""
 }
 
 const discord = {
@@ -22,7 +22,7 @@ function BoxContent (props){
         <div>
         <img
             className='Logo'
-            src={props.url}
+            src={props.logo}
             alt=''
         />
         </div>
@@ -46,8 +46,8 @@ function Contact(){
                         logo={github.logo}
                     />
                     <div>
-                        <button>
-
+                        <button className='Buttons'>
+                            Contact
                         </button>
                     </div>
                 </div>
