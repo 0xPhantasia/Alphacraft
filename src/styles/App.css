@@ -2,7 +2,7 @@
     background-color: rgb(18, 20, 25);
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    height: 150%; /* Hauteur de la page */
+    height: 125%; /* Hauteur de la page */
 }
 
 a {

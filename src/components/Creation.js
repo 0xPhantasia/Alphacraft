@@ -72,6 +72,9 @@ function Creation(){
             <div>
                 <Banner />
             </div>
+            <div className='center'>
+                <h1 className='white'>Créez votre serveur</h1>
+            </div>
             <div className='BoxStack'>
                 <div className='Box' id='grad1'>
                     <Option 
