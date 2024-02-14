@@ -7,6 +7,7 @@ import Manager from './Manager.js';
 import Login from './Login.js';
 import Faq from './Faq';
 import Coffee from './Coffee';
+import CreationOptions from './CreationOptions';
 import NotFound from './NotFound.js';
 import { Route, Routes } from "react-router-dom"
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Login' element={<Login />} />
         <Route path='/FAQ' element={<Faq />} />
         <Route path='/Coffee' element={<Coffee />} />
+        <Route path='/CreationOptions' element={<CreationOptions />} />
         <Route path='/*' element={<NotFound />} />
       </Routes>  
     </div>

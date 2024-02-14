@@ -5,7 +5,7 @@
     justify-content: center;
     list-style-type: none;
     padding-top: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 15px;
 }
 
 .alp-category {
@@ -24,7 +24,7 @@
 
 .alp-logo {
     display: block;
-    width: 65px;
+    width: 76px;
     height: 45px;
     margin-left: auto; /* Alignement logo par rapport a la bordure gauche */
 }

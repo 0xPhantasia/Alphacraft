@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Montserrat-ExtraBold;
-    src: url(Montserrat-ExtraBold.ttf);
-}
-
 .center {
     display: flex;
     flex-direction: column;
